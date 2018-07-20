@@ -9,7 +9,7 @@ class Picker extends Component {
 
     handleChange = function(date) {
         this.props.callback(date)
-    }.bind(this)
+    }.bind(this);
 
     render() {
         return (
@@ -19,7 +19,7 @@ class Picker extends Component {
                     onChange={this.handleChange}
                 />
             </div>
-        )
+        );
     }
 }
 
